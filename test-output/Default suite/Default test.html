@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 04 11:10:57 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>36 seconds (36550 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 110</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 3, 103, 7, 11/11/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 11, 111, 12, 11/19/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 106</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 4, 104, 8, 11/12/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 108</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 5, 105, 3, 11/13/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 1, 101, 5, 11/9/21, Placed, TRUE</td>
+<td></td>
+<td>3</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 111</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 6, 106, 4, 11/14/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 10, 110, 11, 11/18/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 8, 108, 9, 11/16/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 104</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 109</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 12, 112, 13, 11/20/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 103</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 102</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 7, 107, 2, 11/15/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 105</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 107</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 2, 102, 6, 11/10/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testPostStore()'><b>testPostStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 9, 109, 10, 11/17/21, Placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 101</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+<tr>
+<td title='Store.tests.DataDrivenTests.testDeleteStore()'><b>testDeleteStore</b><br>Test class: Store.tests.DataDrivenTests<br>Parameters: 112</td>
+<td></td>
+<td>1</td>
+<td>Store.tests.DataDrivenTests@2b662a77</td></tr>
+</table><p>
+</body>
+</html>
